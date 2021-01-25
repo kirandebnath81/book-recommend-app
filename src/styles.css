@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&display=swap");
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Changa", sans-serif;
+}
+:root {
+  --primary-color: #1f2937;
+}
+
+.App {
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px;
+  cursor: pointer;
+  background-color: rgb(5, 15, 11);
+  color: white;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.book-container {
+  margin: 50px auto;
+  box-shadow: 20px 5px 15px 10px;
+
+  width: 400px;
+  padding: 20px;
+  border-radius: 2rem;
+}
+.book-cover {
+  max-width: 200px;
+  box-shadow: 10px 5px 20px 10px;
+}
+.book-text {
+  color: white;
+  width: 300px;
+  margin: 0px auto;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5rem;
+}
